@@ -26,7 +26,7 @@ DEFAULT_DURATION = 300  # 5 minutes (300 seconds)
 MAX_DURATION = 300
 
 # MongoDB
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Soul:soul@soul.e9ugjn8.mongodb.net/?appName=Soul")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Soul:Soul9086@soul.e9ugjn8.mongodb.net/test?retryWrites=true&w=majority"")
 # ========================================
 
 ATTACK_METHODS = ["UDP", "TCP", "HTTP", "SYN", "ICMP"]
