@@ -16,9 +16,9 @@ app.secret_key = "primexarmy_secret_key_2024"
 # ========================================
 PANEL_NAME = "SOULARMY"  # 👈 Yahan apna naam dalo
 
-SITE_NAME = PANEL_NAME.upper()
-OWNER_USERNAME = PANEL_NAME.lower()
-OWNER_PASSWORD = f"{PANEL_NAME.lower()}@2024"
+SITE_NAME = "soul☠️"
+OWNER_USERNAME = "soul"
+OWNER_PASSWORD = "soul9086"
 SITE_URL = os.getenv("SITE_URL", f"https://kkkkkkkkkk22222-production.up.railway.app")
 
 # Attack settings
