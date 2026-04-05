@@ -17,7 +17,7 @@ PORT = int(os.getenv("PORT", 8080))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "soul")
 OWNER_PASSWORD = os.getenv("OWNER_PASSWORD", "soul9086")
 SITE_NAME = os.getenv("SITE_NAME", "SOULARMY")
-SITE_URL = os.getenv("SITE_URL", "https://primeonyx-production.up.railway.app")
+SITE_URL = os.getenv("SITE_URL", "https://kkkkkkkkkk22222-production.up.railway.app")
 CLOUDFLARE_API = os.getenv("CLOUDFLARE_API", "")
 USE_CLOUDFLARE_API = os.getenv("USE_CLOUDFLARE_API", "true").lower() == "true"
 
