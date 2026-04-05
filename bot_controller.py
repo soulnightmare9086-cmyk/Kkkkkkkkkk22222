@@ -12,7 +12,10 @@ app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", "primexarmy_secret_key_2024")
 
 # ========== ENVIRONMENT VARIABLES ==========
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Soul:Soul9086@soul.e9ugjn8.mongodb.net/test?retryWrites=true&w=majority"")
+MONGO_URL = os.getenv(
+    "MONGO_URL",
+    "mongodb+srv://Soul:Soul9086@soul.e9ugjn8.mongodb.net/test?retryWrites=true&w=majority"
+)
 PORT = int(os.getenv("PORT", 8080))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "soul")
 OWNER_PASSWORD = os.getenv("OWNER_PASSWORD", "soul9086")
